@@ -1,4 +1,4 @@
-FROM resin/%%RESIN_MACHINE_NAME%%-debian:slim
+FROM resin/%%RESIN_MACHINE_NAME%%-debian
 MAINTAINER justin@dray.be
 
 # Let's start with some basic stuff.
