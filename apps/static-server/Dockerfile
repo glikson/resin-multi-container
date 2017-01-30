@@ -1,4 +1,4 @@
-FROM resin/armhf-alpine
+FROM resin/qemux86-64-alpine
 
 RUN apk add --update ruby
 
