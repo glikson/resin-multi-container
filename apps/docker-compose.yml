@@ -5,6 +5,11 @@ volumes:
     transmission-config:
 
 services:
+    nginx:
+        build: nginx
+        ports:
+            - 8080:8080
+
     transmission:
         build: transmission
         volumes:
@@ -12,7 +17,6 @@ services:
             - transmission-config:/config:rw
         ports:
             - 9091:9091
-            - 8080:8080
             - 49300:49300
 
     static-server:
