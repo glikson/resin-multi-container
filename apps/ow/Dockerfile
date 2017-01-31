@@ -1,5 +1,5 @@
 # Dockerfile for docker skeleton (useful for running blackbox binaries, scripts, or python actions).
-FROM resin/qemu86-64-alpine-python:2.7.12-slim
+FROM resin/qemux86-64-alpine-python:2.7.12-slim
 
 # Upgrade and install basic Python dependencies
 RUN apk add --no-cache bash \
