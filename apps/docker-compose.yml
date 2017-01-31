@@ -12,6 +12,7 @@ services:
             - transmission-config:/config:rw
         ports:
             - 9091:9091
+            - 8080:8080
             - 49300:49300
 
     static-server:
