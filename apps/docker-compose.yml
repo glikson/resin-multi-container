@@ -12,8 +12,6 @@ services:
 
     ow:
         build: ow
-        ports:
-            - 8080:8080
 
     transmission:
         build: transmission
