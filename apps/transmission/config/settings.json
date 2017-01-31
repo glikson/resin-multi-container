@@ -10,7 +10,7 @@
     "bind-address-ipv6": "::", 
     "blocklist-enabled": false, 
     "blocklist-url": "http://www.example.com/blocklist", 
-    "cache-size-mb": 256, 
+    "cache-size-mb": 16, 
     "dht-enabled": true, 
     "download-dir": "/downloads", 
     "download-queue-enabled": true, 
