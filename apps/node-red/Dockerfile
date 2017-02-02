@@ -1,7 +1,7 @@
 # base-image for node on any machine using a template variable,
 # see more about dockerfile templates here:http://docs.resin.io/pages/deployment/docker-templates
 # Note the node:slim image doesn't have node-gyp
-FROM resin/qemux86-64-node:6.9-slim
+FROM resin/qemux86-64-node:6.9
 
 # Defines our working directory in container
 RUN mkdir -p /usr/src/app/
