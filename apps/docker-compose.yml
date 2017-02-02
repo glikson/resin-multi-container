@@ -4,6 +4,7 @@ services:
     nginx:
         build: nginx
         ports:
+            - 80:80
             - 8080:8080
 
     ow1:
@@ -14,8 +15,6 @@ services:
 
     node-red:
         build: node-red
-        ports:
-            - 80:80
         environment:
             - USERNAME=${NODE_USERNAME}
             - PASSWORD=${NODE_PASSWORD}
