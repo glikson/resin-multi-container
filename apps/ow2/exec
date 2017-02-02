@@ -1,0 +1,5 @@
+#!/bin/sh
+echo By convention, all the stdout besides the last line is passed to activation logs verbatim.
+uname -s
+uname -m
+echo "{ \"result\": \"last line is the action result, must be valid JSON\" }"
