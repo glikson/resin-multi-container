@@ -15,7 +15,7 @@ RUN JOBS=MAX npm install -g node-red node-red-contrib-resinio && npm cache clean
 COPY ./app ./
 
 # Enable systemd init system in container
-ENV INITSYSTEM=on
+# ENV INITSYSTEM=on
 
 EXPOSE 80
 
