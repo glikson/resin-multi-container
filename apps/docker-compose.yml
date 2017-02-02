@@ -7,10 +7,10 @@ services:
             - 8080:8080
 
     ow1:
-        build: ow
+        build: ow1
 
     ow2:
-        build: ow
+        build: ow2
 
     node-red:
         build: resin-node-red
