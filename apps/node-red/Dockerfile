@@ -17,5 +17,7 @@ COPY ./app ./
 # Enable systemd init system in container
 ENV INITSYSTEM=on
 
+EXPOSE 80
+
 # server.js will run when container starts up on the device
 CMD ["bash", "/usr/src/app/start.sh"]
