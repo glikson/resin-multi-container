@@ -13,7 +13,7 @@ services:
         build: ow2
 
     node-red:
-        build: resin-node-red
+        build: node-red
         ports:
             - 80:80
         environment:
